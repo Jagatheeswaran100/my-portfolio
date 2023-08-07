@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        /* .magicpattern {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: repeat;
+            background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cstyle%3E.shadow_right{-webkit-filter:drop-shadow(-5px -5px 15px %23efedff);filter:drop-shadow(-5px -5px 15px %23efedff)}.shadow_left{-webkit-filter:drop-shadow(5px 5px 15px %23efedff);filter:drop-shadow(5px 5px 15px %23efedff)}%3C%2Fstyle%3E%3Cdefs%3E%3ClinearGradient id=%22gradient__0%22 x1=%220%22 y1=%220%22 x2=%220%22 y2=%221%22%3E%3Cstop stop-color=%22%23efedff%22 offset=%220%25%22%2F%3E%3Cstop stop-color=%22%23f6f6f6%22 offset=%2216.7%25%22%2F%3E%3Cstop stop-color=%22%23c9c2ff%22 offset=%2233.3%25%22%2F%3E%3Cstop stop-color=%22%23fff%22 offset=%2250%25%22%2F%3E%3Cstop stop-color=%22%23c9c2ff%22 offset=%2266.7%25%22%2F%3E%3Cstop stop-color=%22%23f6f6f6%22 offset=%2283.3%25%22%2F%3E%3Cstop stop-color=%22%23efedff%22 offset=%22100%25%22%2F%3E%3C%2FlinearGradient%3E%3Cfilter id=%22grain%22 x=%22-1000%22 y=%22-700%22 width=%224000%22 height=%222800%22 filterUnits=%22userSpaceOnUse%22%3E&gt;%3CfeFlood flood-color=%22%23fff%22 result=%22neutral-gray%22%2F%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%222.5%22 numOctaves=%22100%22 stitchTiles=%22stitch%22 result=%22noise%22%2F%3E%3CfeColorMatrix in=%22noise%22 type=%22saturate%22 values=%220%22 result=%22destaturatedNoise%22%2F%3E%3CfeComponentTransfer in=%22desaturatedNoise%22 result=%22theNoise%22%3E%3CfeFuncA type=%22table%22 tableValues=%220 0 0.4 0%22%2F%3E%3C%2FfeComponentTransfer%3E%3CfeBlend in=%22SourceGraphic%22 in2=%22theNoise%22 mode=%22soft-light%22 result=%22noisy-image%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cg filter=%22url(%23grain)%22%3E%3Cpath fill=%22%23efedff%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cpath id=%22rect__2%22 fill=%22url(%23gradient__0)%22 d=%22M800 280h400v840H800z%22%2F%3E%3Cpath class=%22shadow_left%22 id=%22rect__3%22 fill=%22url(%23gradient__0)%22 d=%22M1200 140h400v1120h-400z%22%2F%3E%3Cpath class=%22shadow_left%22 id=%22rect__4%22 fill=%22url(%23gradient__0)%22 d=%22M1600 0h400v1400h-400z%22%2F%3E%3Cpath class=%22shadow_right%22 id=%22rect__1%22 fill=%22url(%23gradient__0)%22 d=%22M400 140h400v1120H400z%22%2F%3E%3Cpath class=%22shadow_right%22 id=%22rect__0%22 fill=%22url(%23gradient__0)%22 d=%22M0 0h400v1400H0z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+        } */
+
+        /* h1 {
+            text-transform: uppercase;
+        } */
+
+        .magicpattern {
+            /* background-color: #D9AFD9;
+            background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%); */
+            background: #2980B9;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            height: 100vh;
+            /* background-image: url("https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161365.jpg?w=996&t=st=1691083594~exp=1691084194~hmac=f4e3fbc407d99b3c496a72a211d981c23fdc2d8ee3c141fe66ff908362fe822c"); */
+            background-image: url("1.images/technologybackground.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* filter: blur(5px); */
+        }
+
+        #about {
+            /* background-image: url("https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=996&t=st=1691070855~exp=1691071455~hmac=438cf57acff6e9b41cb7810bb4a4f8db7d224988fb9d41bd12ff762773392483"); */
+            /* background-image: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?w=996&t=st=1691071333~exp=1691071933~hmac=414d27ceed8c8a6be5377db40a5201e85a774f77740f3e1416d78a6e49fbdc0d"); */
+            /* background-image: url("https://img.freepik.com/free-vector/stream-binary-code-design-vector_53876-161364.jpg?w=996&t=st=1691083746~exp=1691084346~hmac=28be9a02cb41e5a9cadc3981968006b32d9694e1bcc84d8289871839649c8a86"); */
+            background-image: url("1.images/technologybackground2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* height: 70vh; */
+        }
+
+        /* .magicpattern {
+            background-color: #B3C890;
+        } */
+
+        /* form>button {
+            background-color: #001660;
+            color: white;
+            width: 100%;
+        } */
+
+        .card-group>div>div>img {
+            max-width: 15%;
+            max-height: 50%;
+            padding-top: 10px;
+        }
+
+        .feature-icon {
+            width: 4rem;
+            height: 4rem;
+            border-radius: .75rem;
+        }
+
+        .icon-square {
+            width: 3rem;
+            height: 3rem;
+            border-radius: .75rem;
+        }
+
+        .heros {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header  -->
+    <div class="magicpattern">
+        <div class="container" id="header">
+            <header>
+                <nav class="navbar navbar-expand-lg bg-body-secondary rounded fixed-top nav-underline"
+                    aria-label="Eleventh navbar example">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <a href=""><img src="1.images/JW_-_logo1.2-removebg.png" alt="" height="50"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarsExample09">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                                    <a href="#" class="nav-link px-2 link-secondary">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link" href="#">Link</a> -->
+                                    <a href="#about" class="nav-link px-2 text-dark">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+                                    <!-- <a href="#education" class="nav-link px-2 text-dark">Education</a> -->
+                                </li>
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link" href="#">Link</a> -->
+                                    <a href="#projects" class="nav-link px-2 text-dark">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link" href="#">Link</a> -->
+                                    <a href="#contact" class="nav-link px-2 text-dark">Contact</a>
+                                </li>
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Dropdown</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li> -->
+                            </ul>
+                            <!-- <form role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </form> -->
+                            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                                <!-- <button class="btn btn-primary">Sign-In</button> -->
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary rounded fixed-top" aria-label="Thirteenth navbar example">
+            <div class="container-fluid">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse d-lg-flex collapse" id="navbarsExample11" style="">
+                    <a class="navbar-brand col-lg-3 me-0" href="#">Centered nav</a>
+                    <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                        <button class="btn btn-primary">Button</button>
+                    </div>
+                </div>
+            </div>
+        </nav> -->
+        </div>
+        <br><br><br>
+        <hr>
+
+        <!-- <div class="container">
+            <header
+                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+                id="header">
+                <div class="col-md-3 mb-2 mb-md-0">
+                    <a href=""><img src="1.images/JW - logo.png" alt="" height="50"></a>
+                </div>
+
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 nav-underline">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 text-dark">About</a></li>
+                    <li><a href="#education" class="nav-link px-2 text-dark">Education</a></li>
+                    <li><a href="#skills" class="nav-link px-2 text-dark">Skills</a></li>
+                    <li><a href="#projects" class="nav-link px-2 text-dark">Projects <span
+                                class="badge rounded-pill bg-danger">new</span></a></li>
+                    <li><a href="#" class="nav-link px-2 text-dark">FAQs</a></li>
+                </ul>
+
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                    <button type="button" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Sign-up</button>
+                </div>
+            </header>
+        </div> -->
+
+
+        <!-- heroes -->
+        <!-- <div class="container col-xxl-8 px-4 py-5 heros">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+
+                    <img src="1.images/Hero-pic-removebg.png" class="d-block mx-lg-auto img-fluid rounded-5"
+                        alt="Developer picture" width="300" height="200" loading="lazy">
+                </div>
+
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold text-body-emphasis lh-1 mb-3">Hello!&#128075; I'm Jagatheeswaran</h1>
+                    <p class="lead">A Front-End Developer. Welcome to my portfolio! You can see here more about me and
+                        my works.
+
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Know More</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4" disabled>Resume</button>
+                    </div>
+                    <div class=" pt-4">
+                        <img src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt="" height="30">
+                        <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="" height="30">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- bbbbbbbbbbbbbbbbbbboooooooooooooooooooooooottttttttttttttttttstrap -->
+        <div class="container">
+            <div class="px-4 pt-5 my-5 text-center border-bottom">
+                <h1 class="display-4 fw-bold text-light italic"><em>Hello!&#128075; I'm Jagatheeswaran</em></h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 text-light">Welcome to my portfolio! You can see here more about me
+                        and
+                        my works.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                        <a href="#about"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Know
+                                more</button></a>
+                        <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+                    </div>
+                </div>
+                <div class="overflow-hidden" style="max-height: 30vh;">
+                    <div class="container px-5">
+                        <img src="1.images/JW - logo.png" class="img-fluid border rounded-3 shadow-lg mb-4"
+                            alt="Example image" height="200" loading="lazy">
+                    </div>
+                </div>
+                <!-- down arrow -->
+                <div class="text-center pb-5">
+                    <a class="text-light" href="#footer"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+                            fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- hero -->
+        <!-- <div class="container">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4 " src="1.images/JW_-_logo1.2-removebg.png" alt="" width="25%"
+                    height="25%">
+                <h1 class="display-5 fw-bold text-body-emphasis">Hello!&#128075; I'm Jagatheeswaran</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">A Front-End Developer. Welcome to my portfolio! You can see here more about me
+                        and
+                        my works.
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="#about"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Know
+                                more</button></a>
+                    </div>
+                    <br><br>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- about heroes -->
+    <div class="container-fluid" id="about">
+        <div class="container col-xxl-8 px-4 py-3 pt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <!-- rounded-3 border shadow-lg -->
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="1.images/My Photo (large)-modified.png" class="d-block mx-lg-auto img-fluid rounded-5"
+                        alt="Developer picture" width="300" height="200" loading="lazy">
+                </div>
+
+                <div class="col-lg-6">
+                    <h1 class="display-3 text-light lh-1 mb-3">About me</h1>
+                    <p class="lead text-light">Motivated and enthusiastic fresher seeking a Software Developer position
+                        to apply
+                        and enhance my skills while contributing to the growth and success of the company.
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <a href="Files/Jagatheeswaran_Resume.pdf" download="Jagatheeswaran_Resume">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Download CV <svg
+                                    xmlns="http://www.w3.org/2000/svg" height="20" fill="currentColor"
+                                    class="bi bi-download" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                                </svg></button>
+                        </a>
+
+                        <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4" disabled>Know more</button> -->
+                    </div>
+                    <div class=" pt-4">
+                        <a href="https://www.linkedin.com/in/jagatheeswaran-s-479931230/" target="_blank"><img
+                                src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" alt=""
+                                height="30"></a>
+                        <a href="https://github.com/Jagatheeswaran100" target="_blank"><img
+                                src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="" height="30"></a>
+                        <a href="mailto:jagathees320@gmail.com"><img
+                                src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" alt="" height="40"></a>
+                        <!-- <img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="" height="30"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+
+    <!-- jumbotron -->
+    <div class="container my-5" id="objective">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <h1 class="text-body-emphasis">Objective</h1>
+            <p class="lead">
+                To obtain a challenging and dynamic role as a front-end developer in a reputable organization where I
+                can leverage my skills in HTML, CSS and JavaScript to create visually appealing and user-friendly
+                websites or web applications. I aim to grow my knowledge and skills in the field of front-end
+                development while contributing to the success of the company.
+            </p>
+        </div>
+    </div>
+
+    <!-- education details -->
+    <h1 class="text-center text-body-emphasis" id="education">Educational Qualifications</h1>
+    <div class="container">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        PG
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <strong>Degree</strong> : Master of Science in Computer Science (M.Sc.) <br>
+                        <strong>Year</strong> : 2021 - 2023 <br>
+                        <strong>College</strong> : Vels Institute of Science, Technology and Advanced Studies, Chennai
+                        <br>
+                        <strong>Percentage</strong> : 85% <br>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        UG
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Degree</strong> : Bachelor of Science in Computer Technology (B.Sc.) <br>
+                        <strong>Year</strong> : 2018 - 2021 <br>
+                        <strong>College</strong> : Kongu Arts and Science College, Erode <br>
+                        <strong>Percentage</strong> : 68% <br>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        HSC
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Group</strong> : Computer Science <br>
+                        <strong>Year</strong> : 2018 <br>
+                        <strong>School</strong> : The Merit Hr. Sec. School, Thiruvarur <br>
+                        <strong>Percentage</strong> : 66% <br>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        SSLC
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Year</strong> : 2016 <br>
+                        <strong>School</strong> : Vidyaa Vikas Matric Hr. Sec. School, Thanjavur <br>
+                        <strong>Percentage</strong> : 86% <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="container">
+        <h1 class="text-center text-body-emphasis pt-5" id="skills">Technical Skills</h1>
+        <div class="card-group">
+            <div class="row">
+                <div class="card col-md-4">
+                    <img class="card-img-top mx-auto d-block"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png">
+
+                    <div class="card-body">
+                        <h3 class="card-title text-center">HTML</h3>
+                        <p class="card-text">Proficient in HTML from Basics to Advanced concepts such as Semantic HTML,
+                            Accessibility, SEO Basics, Conventions and Best Practices.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4">
+                    <img class="card-img-top mx-auto d-block"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png">
+
+                    <div class="card-body">
+                        <h3 class="card-title text-center">CSS</h3>
+                        <p class="card-text">Proficient in CSS from Basics to Advanced concepts such as Making layouts,
+                            Responsive design and Media Queries.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4">
+                    <img class="card-img-top mx-auto d-block"
+                        src="https://cdn.freebiesupply.com/logos/large/2x/javascript-logo-png-transparent.png">
+
+                    <div class="card-body">
+                        <h3 class="card-title text-center">JavaScript</h3>
+                        <p class="card-text">Proficient in JavaScript from Basics to Intermediate concepts such as
+                            Syntax,
+                            Es6, DOM Manipulation.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4">
+                    <img class="card-img-top mx-auto d-block"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png">
+
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Bootstrap</h3>
+                        <p class="card-text">Proficient in Bootstrap from Basics to Advanced concepts such as Layout,
+                            Components, etc...</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4">
+                    <img class="card-img-top mx-auto d-block"
+                        src="https://www.vectorlogo.zone/logos/python/python-icon.svg">
+
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Python</h3>
+                        <p class="card-text">Basic Knowledge of Python programming.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4">
+                    <img class="card-img-top mx-auto d-block"
+                        src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg">
+
+                    <div class="card-body">
+                        <h3 class="card-title text-center">MySQL</h3>
+                        <p class="card-text">Basic Knowledge of MySQL database.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4">
+                    <!-- <img class="card-img-top mx-auto d-block" src="..."> -->
+
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Learning...</h3>
+                        <div class="d-flex justify-content-center">
+                            <div class="spinner-border" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                        <p class="card-text">...</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <div class="container my-5" id="projects">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+            <svg xmlns="http://www.w3.org/2000/svg" height="50" fill="currentColor" class="bi bi-code-slash"
+                viewBox="0 0 16 16">
+                <path
+                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+            </svg>
+            <h1 class="text-body-emphasis">My Projects</h1>
+            <p class="col-lg-8 mx-auto fs-5 text-muted">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ipsa? Quas placeat praesentium et ab magnam
+                cum accusamus corrupti a laudantium? Ut, obcaecati quae! Perspiciatis ipsum velit nulla quia molestiae.
+            </p>
+            <div class="d-inline-flex gap-2 mb-5 position-relative">
+                <a href="myprojects.html"
+                    class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill">Recently Done
+                    <!-- <span class="badge rounded-pill bg-danger"> new</span> -->
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        3+
+                        <span class="visually-hidden">unread messages</span>
+                    </span>
+                    <!-- <svg
+                        xmlns="http://www.w3.org/2000/svg" height="25" fill="currentColor" class="bi bi-check2"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+                    </svg> -->
+                </a>
+
+                <!-- <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                    Upcoming
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25" fill="currentColor"
+                        class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z" />
+                        <path
+                            d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z" />
+                    </svg>
+                </button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Interests -->
+    <div class="container px-4 py-5" id="hanging-icons">
+        <h1 class="pb-2 border-bottom  text-body-emphasis text-center">Interests</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+                <div
+                    class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25" fill="currentColor"
+                        class="bi bi-layout-text-window-reverse" viewBox="0 0 16 16">
+                        <path
+                            d="M13 6.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm0 3a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 .5-.5zm-.5 2.5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1h5z" />
+                        <path
+                            d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12zM2 1a1 1 0 0 0-1 1v1h14V2a1 1 0 0 0-1-1H2zM1 4v10a1 1 0 0 0 1 1h2V4H1zm4 0v11h9a1 1 0 0 0 1-1V4H5z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Web Design</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto, nobis totam cum atque
+                        deleniti impedit error! Cum, tenetur soluta.
+                    </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div
+                    class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-code-slash"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Web Development</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto, nobis totam cum atque
+                        deleniti impedit error! Cum, tenetur soluta.
+                    </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div
+                    class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-brush"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Graphic Design</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto, nobis totam cum atque
+                        deleniti impedit error! Cum, tenetur soluta.
+                    </p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+                <div
+                    class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-camera"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+                        <path
+                            d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="fs-2 text-body-emphasis">Photography</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto, nobis totam cum atque
+                        deleniti impedit error! Cum, tenetur soluta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Additional -->
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Can access with any devices!</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusantium nam dolorem
+                    inventore, asperiores amet corporis. Reprehenderit ducimus, amet suscipit quae commodi doloribus.
+                    Quasi, a nulla! Officiis ad necessitatibus dolores!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> -->
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3" src="1.images/responsive img.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+
+    <!-- form  -->
+    <div class="container pt-5 pb-5 bg-body-tertiary" id="contact">
+        <form method="post" action="mailto:jagathees320@gmail.com" enctype="text/plain">
+            <h1 class="text-body-emphasis text-center">Contact</h1>
+            <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Name :</label>
+                <input type="text" class="form-control border-primary" id="exampleInputName" name="Username"
+                    placeholder="Enter your name" required>
+                <!-- <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div> -->
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address :</label>
+                <input type="email" class="form-control border-primary" id="exampleInputEmail1" name="Email"
+                    aria-describedby="emailHelp" placeholder="Enter your email id" required>
+                <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+            </div>
+            <!-- <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control border-primary" id="exampleInputPassword1">
+            </div> -->
+            <div class="mb-3">
+                <label for="comment" class="form-label">Comments :</label>
+                <textarea class="form-control border-primary" rows="3" id="comment" name="Comment"
+                    placeholder="Write your thoughts..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="reset" class="btn btn-outline-primary">Reset</button>
+        </form>
+    </div>
+
+    <!-- footer  -->
+    <div class="container-fluid bg-body-tertiary">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" id="footer">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2023 Company, Inc</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="images/JW - logo1.2.png" alt="" height="50">
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#home" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link px-2 text-body-secondary">Contact</a></li>
+                <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> -->
+            </ul>
+        </footer>
+
+        <!-- up arrow  -->
+        <div class="text-end my-5">
+            <a class="text-dark" href="#header"><svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                    class="bi bi-arrow-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                </svg></a>
+        </div>
+    </div>
+
+    <!-- footer waves   -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1"
+            d="M0,96L288,192L576,160L864,288L1152,160L1440,128L1440,320L1152,320L864,320L576,320L288,320L0,320Z">
+        </path>
+    </svg> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
